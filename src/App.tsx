@@ -3,6 +3,8 @@ import "animate.css";
 
 import Logo from "./assets/card-logo.svg";
 import IconComplete from "./assets/icon-complete.svg";
+import cardFront from "./assets/bg-card-front.png";
+import cardBack from "./assets/bg-card-back.png";
 
 function ThankYou() {
   return (
@@ -127,7 +129,7 @@ function App() {
               </p>
             </div>
           </div>
-          <img src='./src/assets/bg-card-front.png' alt="card-front" />
+          <img src={cardFront} alt="card-front" />
         </div>
         <div className="w-[448px] absolute left-64 top-[380px] mt-5 max-md:left-40 max-md:top-4 max-mobile:w-[300px] max-mobile:left-12">
           <div className="left-80 relative top-[132px] z-10 h-6 max-mobile:left-48 max-mobile:top-24">
@@ -135,7 +137,7 @@ function App() {
               **** {securityCode ? securityCode : "000"}
             </p>
           </div>
-          <img src='./src/assets/bg-card-back.png' alt="card-back" />
+          <img src={cardBack} alt="card-back" />
         </div>
       </section>
       <section className="w-full bg-white">
