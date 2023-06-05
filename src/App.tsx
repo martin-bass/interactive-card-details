@@ -164,7 +164,7 @@ function App() {
             </div>
             <div className="mt-7">
               <label className="block text-gray-700 text-sm mb-2 uppercase font-mono">
-               tghtdfgf
+                card number
               </label>
               <input
                 className="border-2 border-purple-700	rounded w-full py-2 px-3 text-gray-700"
