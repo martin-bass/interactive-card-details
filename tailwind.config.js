@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      screens: {'mobile': '360px'}
+      screens: {'mobile': '375px'}
     },
   },
   plugins: [],
