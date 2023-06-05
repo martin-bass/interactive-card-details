@@ -4,10 +4,11 @@
 
 body {
   margin: 0;
-  background-color: #EDEDED;
-  overflow-x: hidden;
+  background-color: #ededed;
 }
 
-
-
-
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
