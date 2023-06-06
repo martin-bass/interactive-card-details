@@ -86,9 +86,9 @@ function App() {
   };
 
   return (
-    <main className="flex max-w-screen-xl m-auto min-h-screen max-md:flex-col max-mobile:flex-col">
-      <section className="w-[483px] bg-[url('./assets/bg-main-desktop.png')] max-mobile:bg-[url('./assets/bg-main-mobile.png')] max-md:w-[768px] max-mobile:w-full max-md:bg-cover">
-        <div className="w-[448px] relative left-36 top-4 max-md:left-10 max-md:top-28 max-md:z-20 max-mobile:w-[300px] max-mobile:top-24 max-mobile:left-2">
+    <main className="flex max-w-screen-xl m-auto min-h-screen max-md:flex-col max-mobile:flex-col ">
+      <section className="w-[483px] bg-[url('./assets/bg-main-desktop.png')] max-mobile:bg-[url('./assets/bg-main-mobile.png')] max-md:w-[768px] max-mobile:w-full max-md:bg-cover relative z-30 max-md:h-80 max-mobile:h-64">
+        <div className="w-[448px] relative left-36 top-4 max-md:left-10 max-md:top-28 max-md:z-20 max-mobile:w-[300px] max-mobile:top-20 max-mobile:left-2">
           <img
             src={Logo}
             alt="logo"
@@ -131,7 +131,7 @@ function App() {
           </div>
           <img src={cardFront} alt="card-front" />
         </div>
-        <div className="w-[448px] absolute left-64 top-[380px] mt-5 max-md:left-40 max-md:top-4 max-mobile:w-[300px] max-mobile:left-12">
+        <div className="w-[448px] relative left-52 bottom-2 mt-5 max-md:left-40 max-md:bottom-80 max-mobile:w-[300px] max-mobile:left-12 max-mobile:bottom-56">
           <div className="left-80 relative top-[132px] z-10 h-6 max-mobile:left-48 max-mobile:top-24">
             <p className="text-black text-sm font-mono">
               **** {securityCode ? securityCode : "000"}
@@ -140,13 +140,13 @@ function App() {
           <img src={cardBack} alt="card-back" />
         </div>
       </section>
-      <section className="w-full bg-white">
+      <section className="w-full bg-white relative">
         {submit ? (
           <ThankYou />
         ) : (
           <form
             onSubmit={handleSubmit}
-            className=" w-[400px] p-5 ml-80 mt-36 max-md:ml-28 max-mobile:w-[300px] max-mobile:ml-3"
+            className=" w-[400px] p-5 ml-80 mt-36 max-md:ml-28 max-mobile:w-[300px] max-mobile:ml-3 max-mobile:mt-20"
           >
             <div className="mb-4">
               <label className="block text-gray-700 text-sm mb-2 uppercase font-mono">
