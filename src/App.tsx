@@ -8,7 +8,7 @@ import cardBack from "./assets/bg-card-back.png";
 
 function ThankYou() {
   return (
-    <div className="w-[400px] p-5 ml-80 mt-52 flex flex-col justify-center items-center max-md:ml-36 max-md:mt-36 max-mobile:w-[300px] max-mobile:ml-5 animate__animated animate__backInDown">
+    <div className="w-[400px] p-5 ml-80 mt-52 flex flex-col justify-center items-center max-md:ml-36 max-md:mt-36 max-mobile:w-[300px] max-mobile:ml-5 max-mobile:mt-20 animate__animated animate__backInDown">
       <img src={IconComplete} alt="IconComplete" className="w-16" />
       <h1 className="uppercase mt-5 font-mono text-4xl">Thank you!</h1>
       <p className="mt-5 text-base font-mono text-gray-400 max-mobile:text-center">
@@ -87,7 +87,7 @@ function App() {
 
   return (
     <main className="flex max-w-screen-xl m-auto min-h-screen max-md:flex-col max-mobile:flex-col ">
-      <section className="w-[483px] bg-[url('./assets/bg-main-desktop.png')] max-mobile:bg-[url('./assets/bg-main-mobile.png')] max-md:w-[768px] max-mobile:w-full max-md:bg-cover relative z-30 max-md:h-80 max-mobile:h-64">
+      <section className="w-[483px] bg-[url('./assets/bg-main-desktop.png')] max-mobile:bg-[url('./assets/bg-main-mobile.png')] max-md:w-[768px] max-md:bg-cover relative z-30 max-md:h-80 max-mobile:h-64">
         <div className="w-[448px] relative left-36 top-4 max-md:left-10 max-md:top-28 max-md:z-20 max-mobile:w-[300px] max-mobile:top-20 max-mobile:left-2">
           <img
             src={Logo}
@@ -140,7 +140,7 @@ function App() {
           <img src={cardBack} alt="card-back" />
         </div>
       </section>
-      <section className="w-full bg-white relative">
+      <section className="w-full bg-white relative max-md:w-[768px] h-full">
         {submit ? (
           <ThankYou />
         ) : (
