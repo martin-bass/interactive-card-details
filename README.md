@@ -1,35 +1,5 @@
 # interactive-card-details
 
-# Front-end Style Guide
+Desarrollado en *React.JS* con *TypeScript* y *Tailwind.css*
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
-- Red (input errors): hsl(0, 100%, 66%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Light grayish violet: hsl(270, 3%, 87%)
-- Dark grayish violet: hsl(279, 6%, 55%)
-- Very dark violet: hsl(278, 68%, 11%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 18px
-
-### Font
-
-- Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
-- Weights: 500
+![screencapture-interactive-card-details-indol-vercel-app-2023-06-06-19_07_48](https://github.com/martin-bass/interactive-card-details/assets/84106998/095cfc03-ac76-43a2-b42e-b363c197e02b)
