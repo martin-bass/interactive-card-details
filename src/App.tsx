@@ -86,8 +86,8 @@ function App() {
   };
 
   return (
-    <main className="flex max-w-screen-xl m-auto min-h-screen max-md:flex-col max-mobile:flex-col ">
-      <section className="w-[483px] bg-[url('./assets/bg-main-desktop.png')] max-mobile:bg-[url('./assets/bg-main-mobile.png')] max-md:w-[768px] max-md:bg-cover relative z-30 max-md:h-80 max-mobile:h-64">
+    <main className="flex max-w-screen-xl m-auto min-h-screen max-md:flex-col max-mobile:flex-col max-mobile:overflow-x-hidden">
+      <section className="w-[483px] bg-[url('./assets/bg-main-desktop.png')] max-mobile:bg-[url('./assets/bg-main-mobile.png')] max-md:w-[768px] max-md:bg-cover relative z-30 max-md:h-80 max-mobile:h-64 max-mobile:w-full">
         <div className="w-[448px] relative left-36 top-4 max-md:left-10 max-md:top-28 max-md:z-20 max-mobile:w-[300px] max-mobile:top-20 max-mobile:left-2">
           <img
             src={Logo}
@@ -140,7 +140,7 @@ function App() {
           <img src={cardBack} alt="card-back" />
         </div>
       </section>
-      <section className="w-full bg-white relative max-md:w-[768px] h-full">
+      <section className="w-full bg-white relative max-md:w-[768px] max-mobile:w-full">
         {submit ? (
           <ThankYou />
         ) : (
